@@ -1,11 +1,11 @@
-import Boton from './components/boton.jsx';
 import './App.css';
+import NavBar from './components/NavBar.jsx';
 
-const App = () => {
+function App(){
   return (
-    <div>
-      <Boton />
-    </div>
+    <>
+      <NavBar />
+    </>
   )
 }
 
