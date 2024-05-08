@@ -1,4 +1,4 @@
-import Boton from './components/Boton/index.jsx';
+import Boton from './components/boton.jsx';
 import './App.css';
 
 const App = () => {
