@@ -1,6 +1,3 @@
-import HeaderText from "./text/header-text.jsx"
-import SubHeaderText from "./text/sub-header-text.jsx"
-
 function NavHeaderText(props){
     return <h1 className="nav-header-text">{props.text}</h1>
 }
@@ -15,13 +12,13 @@ export default function NavBar(){
     return (
         <div className="nav">
             <NavHeaderText text="Marco Ambricca"/>
-            <div className="nav-links">
+            <li className="nav-links">
                 <NavLink linkName="Acerca de mi" href="#acercademi"/>
                 <NavLink linkName="Conocimientos" href="conocimientos"/>
                 <NavLink linkName="Educacion" href="educacion"/>
                 <NavLink linkName="Certificaciones" href="certificaciones"/>
                 <NavLink linkName="Contacto" href="contacto"/>
-            </div>
+            </li>
         </div>
     )
 }
