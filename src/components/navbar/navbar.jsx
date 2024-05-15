@@ -12,13 +12,13 @@ export default function NavBar(){
     return (
         <div className="nav">
             <NavHeaderText text="Marco Ambricca"/>
-            <li className="nav-links">
+            <ul className="nav-links">
                 <NavLink linkName="Acerca de mi" href="#acercademi"/>
                 <NavLink linkName="Conocimientos" href="conocimientos"/>
                 <NavLink linkName="Educacion" href="educacion"/>
                 <NavLink linkName="Certificaciones" href="certificaciones"/>
                 <NavLink linkName="Contacto" href="contacto"/>
-            </li>
+            </ul>
         </div>
     )
 }

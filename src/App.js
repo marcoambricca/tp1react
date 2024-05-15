@@ -1,12 +1,12 @@
 import './App.css';
-import NavBar from './components/navbar.jsx';
-import Main from './components/main.jsx';
+import NavBar from './components/navbar/navbar.jsx';
+import TopSection from './components/top-section/topsection.jsx';
 
 function App(){
   return (
     <>
       <NavBar />
-      <Main />
+      <TopSection />
     </>
   )
 }
