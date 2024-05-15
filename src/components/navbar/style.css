@@ -8,8 +8,9 @@
 }
 
 .nav-header-text{
-    font-weight: 600;
-    color: #DAE2DF;
+    font-weight: 800;
+    font-size: 2rem;
+    color: #101010;
 }
 
 .nav-links{
@@ -22,5 +23,10 @@
     display: flex;
     margin-left: 20px;
     text-decoration: none;
-    color: #DAE2DF;
+    color: #101010;
+    font-weight: 700;
+}
+
+.nav-link:hover{
+    opacity: 0.5;
 }
