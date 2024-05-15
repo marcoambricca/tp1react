@@ -14,7 +14,7 @@
 }
 
 .coding-topleft-icon{
-    width: 50%;
+    width: 60%;
 }
 
 .right-column-top{
@@ -24,7 +24,15 @@
     flex-direction: column;
     justify-content: center;
     text-align: left;
-    margin-left: 80px;
+    margin-left: 60px;
+}
+
+.link-container .link-icon:nth-child(n + 2){
+    margin-left: 18px;
+}
+
+.link-container .link-icon:hover{
+    opacity: 0.5;
 }
 
 .top-header{

@@ -11,12 +11,7 @@
     font-weight: 800;
     font-size: 2rem;
     color: #101010;
-}
-
-.nav-links{
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
+    font-family: Trebuchet MS !important;
 }
 
 .nav-link{

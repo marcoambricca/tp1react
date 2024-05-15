@@ -1,3 +1,5 @@
+import './style.css';
+
 function NavHeaderText(props){
     return <h1 className="nav-header-text">{props.text}</h1>
 }
@@ -12,12 +14,12 @@ export default function NavBar(){
     return (
         <div className="nav">
             <NavHeaderText text="Marco Ambricca"/>
-            <ul className="nav-links">
-                <NavLink linkName="Acerca de mi" href="#acercademi"/>
-                <NavLink linkName="Conocimientos" href="conocimientos"/>
-                <NavLink linkName="Educacion" href="educacion"/>
-                <NavLink linkName="Certificaciones" href="certificaciones"/>
-                <NavLink linkName="Contacto" href="contacto"/>
+            <ul className="link-container">
+                <NavLink linkName="Acerca de mi" href="#about"/>
+                <NavLink linkName="Conocimientos" href="#conocimientos"/>
+                <NavLink linkName="Educacion" href="#educacion"/>
+                <NavLink linkName="Certificaciones" href="#certificaciones"/>
+                <NavLink linkName="Contacto" href="#contact"/>
             </ul>
         </div>
     )
