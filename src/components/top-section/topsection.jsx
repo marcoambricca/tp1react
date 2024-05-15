@@ -1,4 +1,4 @@
-import coding_topleft_icon from "../../images/coding_topleft_icon.jpg"
+import coding_topleft_icon from "../../images/coding_topleft_icon.png"
 
 export default function TopSection(){
     return (
