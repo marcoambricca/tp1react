@@ -23,3 +23,22 @@ body{
     flex-wrap: nowrap;
     list-style-type: none;
 }
+
+.title{
+    position: relative;
+    width: 500px;
+}
+
+.title h1{
+    z-index: 10;
+    position: absolute;
+    top: 35%;
+    left: 28%;
+    font-size: 35px;
+    font-family: Comic Sans MS;
+}
+
+.title img{
+    z-index: 1;
+    width: 100%;
+}
