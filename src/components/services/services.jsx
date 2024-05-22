@@ -9,7 +9,7 @@ export default function Services(){
     return (
         <>
             <div className="services">
-                <Title text="Conocimientos" />
+                <Title text="Conocimientos"/>
                 <ul className='service-items-list'>
                     <li className='service-item'>
                         <img className="svc-item-img" src={webdev_icon} alt="webdev" />
